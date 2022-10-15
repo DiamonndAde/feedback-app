@@ -6,7 +6,7 @@ const RatingSelect = ({ select }) => {
     setSelected(+e.currentTarget.value); //The + sign changes the string to a number
     select(+e.currentTarget.value);
   };
-  return <div>RatingSelect</div>;
+  return <div>RatingSelectS</div>;
 };
 
 export default RatingSelect;
